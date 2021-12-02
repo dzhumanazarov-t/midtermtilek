@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/explore">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="kg.zara07.midtermtilek.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/cart"
+        android:name="kg.zara07.midtermtilek.Cart"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/offer"
+        android:name="kg.zara07.midtermtilek.Offer"
+        android:label="fragment_offer"
+        tools:layout="@layout/fragment_offer" />
+    <fragment
+        android:id="@+id/account"
+        android:name="kg.zara07.midtermtilek.Accound"
+        android:label="fragment_accound"
+        tools:layout="@layout/fragment_accound" />
+    <fragment
+        android:id="@+id/explore"
+        android:name="kg.zara07.midtermtilek.Explore"
+        android:label="fragment_explore"
+        tools:layout="@layout/fragment_explore" />
+</navigation>
